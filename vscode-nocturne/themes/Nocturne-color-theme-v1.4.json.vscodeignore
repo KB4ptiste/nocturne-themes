@@ -1,0 +1,96 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Nocturne",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#241B2F",
+    "editor.foreground": "#3E2E50",
+    "editorLineNumber.foreground": "#8B7FA4",
+    "editorCursor.foreground": "#3E2E50",
+    "editor.selectionBackground": "#634A80",
+    "editor.inactiveSelectionBackground": "#4D3867",
+    "editor.lineHighlightBackground": "#49325F",
+    "editor.selectionHighlightBackground": "#4D3867",
+    "sideBar.background": "#332543",
+    "sideBar.foreground": "#DCD2EC",
+    "sideBar.border": "#2A1E3A",
+    "activityBar.background": "#2A1E3A",
+    "activityBar.foreground": "#3E2E50",
+    "activityBarBadge.background": "#C58CFF",
+    "activityBarBadge.foreground": "#1A1224",
+    "statusBar.background": "#2A1E3A",
+    "statusBar.foreground": "#DCD2EC",
+    "titleBar.activeBackground": "#2A1E3A",
+    "titleBar.activeForeground": "#DCD2EC",
+    "panel.background": "#241B2F",
+    "panel.border": "#2A1E3A",
+    "tab.activeBackground": "#241B2F",
+    "tab.activeForeground": "#3E2E50",
+    "tab.inactiveBackground": "#2A1E3A",
+    "tab.inactiveForeground": "#8B7FA4",
+    "terminal.background": "#241B2F",
+    "terminal.foreground": "#3E2E50",
+    "terminalCursor.foreground": "#3E2E50",
+    "terminal.ansiBlack": "#1A1224",
+    "terminal.ansiRed": "#FF6677",
+    "terminal.ansiGreen": "#8ED18A",
+    "terminal.ansiYellow": "#F5C26B",
+    "terminal.ansiBlue": "#8AE1FF",
+    "terminal.ansiMagenta": "#C58CFF",
+    "terminal.ansiCyan": "#8AE1FF",
+    "terminal.ansiWhite": "#3E2E50",
+    "terminal.ansiBrightBlack": "#2B2036",
+    "terminal.ansiBrightRed": "#FF8591",
+    "terminal.ansiBrightGreen": "#A5EAA0",
+    "terminal.ansiBrightYellow": "#FFD48A",
+    "terminal.ansiBrightBlue": "#A9E6FF",
+    "terminal.ansiBrightMagenta": "#D9A7FF",
+    "terminal.ansiBrightCyan": "#A9E6FF",
+    "terminal.ansiBrightWhite": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#8B7FA4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string", "constant.other.symbol"],
+      "settings": {
+        "foreground": "#F2C88F"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#C58CFF"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#8AE1FF"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "meta.definition.variable"],
+      "settings": {
+        "foreground": "#3E2E50"
+      }
+    },
+    {
+      "name": "Numbers & constants",
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#FF9E9E"
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "name": "nocturne-theme",
   "displayName": "Nocturne",
   "description": "Nocturne dark theme based on a purple-focused palette.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "publisher": "PseudoAsylum",
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
       {
         "label": "Nocturne",
         "uiTheme": "vs-dark",
-        "path": "./themes/Nocturne-color-theme.json"
+        "path": "./themes/Nocturne-color-theme-v2.0.json"
       }
     ]
   }
